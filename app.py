@@ -1,6 +1,6 @@
 import streamlit as st
 
-def main():
+def app():
     st.header('錢包輸入')
     st.write('注意！目前僅支援三條鏈，分別為 Ethereum, Polygon, Binance Smart Chain, 目前正在開發 Line Blockchain Service 中的 Daphne 網路')
     st.subheader('Ethereum 錢包地址')
@@ -12,6 +12,6 @@ def main():
     clicked = st.button('確認')
     
 
-
+import os
 if __name__ == '__main__':
-    main()
+    app()
